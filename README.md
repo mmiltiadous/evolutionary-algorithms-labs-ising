@@ -35,8 +35,8 @@ Both problems are evaluated using the [IOH Profiler](https://iohprofiler.github.
 - μ=18, λ=111, discrete recombination + tournament parent selection
 ### Hyperparameter Tuning
  
-- **GA**: Grid search over population size, crossover probability, mutation rate, tournament size, and number of crossover points — see `grid_search_ga_f18_f19.ipynb`
-- **ES**: Sequential Model-Based Optimization (Bayesian optimization via `scikit-optimize`) over μ, λ, and recombination function — see `smbo_search_ES.py`
+- **GA**: Grid search over population size, crossover probability, mutation rate, tournament size, and number of crossover points - see `grid_search_ga_f18_f19.ipynb`
+- **ES**: Sequential Model-Based Optimization (Bayesian optimization via `scikit-optimize`) over μ, λ, and recombination function - see `smbo_search_ES.py`
  
 ## Requirements
  
