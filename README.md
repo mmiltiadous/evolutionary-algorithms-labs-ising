@@ -1,16 +1,16 @@
 # evolutionary-optimization
  
-Implementation and tuning of a **Genetic Algorithm (GA)** and **Evolution Strategy (ES)** to solve two combinatorial optimization problems — the LABS (F18) and Ising Model (F19) — as part of the Evolutionary Algorithms course (2023). Full report is also provided (`ea2023_practical_assignment_report.pdf`).
+Implementation and tuning of a **Genetic Algorithm (GA)** and **Evolution Strategy (ES)** to solve two combinatorial optimization problems, the LABS (F18) and Ising Model (F19), as part of the Evolutionary Algorithms course (2023). Full report is also provided (`ea2023_practical_assignment_report.pdf`).
  
 Hyperparameters were tuned using **Grid Search** (GA) and **Sequential Model-Based Optimization** (ES), exploring variants of selection, crossover, and mutation operators.
  
  
 ## Problems
  
-### F18 — Low Autocorrelation Binary Sequences (LABS)
+### F18: Low Autocorrelation Binary Sequences (LABS)
 Maximizes the reciprocal of autocorrelation energy over a binary sequence of length 50. The theoretical optimum approaches ~12.32 as n → ∞.
  
-### F19 — Ising Model (1D Ring)
+### F19: Ising Model (1D Ring)
 Maximizes the energy of a one-dimensional Ising spin system. The optimum for dimension 50 is 50.
  
 Both problems are evaluated using the [IOH Profiler](https://iohprofiler.github.io/) framework with a budget of **5000 function evaluations** and **20 independent runs**.
