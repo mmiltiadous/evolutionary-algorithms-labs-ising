@@ -51,8 +51,6 @@ Install:
 pip install ioh scikit-optimize numpy
 ```
  
----
- 
 ## Usage
  
 **Run GA** (best configuration):
