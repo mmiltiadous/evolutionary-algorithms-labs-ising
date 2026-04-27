@@ -26,7 +26,7 @@ Both problems are evaluated using the [IOH Profiler](https://iohprofiler.github.
 **Best configuration for F19** (avg. fitness 48.2):
 - Tournament-k selection (k=5), n-point crossover (n=20), binomial mutation
 - pop_size=10, crossover_prob=0.2, mutation_rate=0.05, mutation_strength=0.5
-- 
+
 ### Evolution Strategy (`s3801454_s3699463_ES.py`)
  
 **Best configuration for F18** (avg. fitness 3.86):
